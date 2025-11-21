@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import CartaDelDia from "./components/CartaDelDia";
 import MuseoDeFotos from "./components/MuseoDeFotos";
 import Acertijos from "./components/Acertijos";
