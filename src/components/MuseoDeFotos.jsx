@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const fotos = [
   {
-    url: "https://i.imgur.com/r9NbN1K.jpg", // Cambia por tus fotos!
+    url: "https://i.imgur.com/r9NbN1K.jpg",
     titulo: "Nuestro primer paseo",
     descripcion: "¡Un día inolvidable juntos!"
   },
