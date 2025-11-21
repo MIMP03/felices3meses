@@ -1,15 +1,20 @@
 body {
   background: #fff0f6;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', Arial, sans-serif;
+  margin: 0;
 }
 .App {
   max-width: 600px;
   margin: 40px auto;
   background: white;
   border-radius: 18px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 24px rgba(236, 64, 122, 0.22);
   padding: 30px;
   text-align: center;
+}
+h1 {
+  color: #c2185b;
+  margin-bottom: 30px;
 }
 .tabs {
   display: flex;
@@ -26,6 +31,8 @@ body {
   cursor: pointer;
   font-weight: bold;
   font-size: 16px;
+  outline: none;
+  transition: background 0.2s;
 }
 .tabs button.active {
   background: #f06292;
@@ -34,4 +41,25 @@ body {
 .tab-content {
   padding: 20px;
   min-height: 250px;
+}
+.foto-museo {
+  margin: 0 auto;
+  max-width: 360px;
+}
+.foto-museo img {
+  width: 100%;
+  margin-bottom: 18px;
+}
+.foto-museo button {
+  margin: 0 6px;
+  padding: 6px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #f06292;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.foto-museo button:hover {
+  background: #d81b60;
 }
