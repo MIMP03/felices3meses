@@ -4,7 +4,7 @@ const DEFAULT_CARTA =
   "Buenos días, amor. Quiero recordarte lo especial que eres para mí. Cada día contigo es un regalo. Te amo con todo mi corazón. 💌";
 
 export default function CartaDelDia() {
-  const [carta, setCarta] = useState(DEFAULT_CARTA);
+  const [carta] = useState(DEFAULT_CARTA);
 
   return (
     <div>
